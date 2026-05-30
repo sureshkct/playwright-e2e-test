@@ -1,0 +1,29 @@
+{
+  "name": "playwright-e2e-test",
+  "version": "1.0.0",
+  "description": "Playwright E2E Test with AI",
+  "keywords": [
+    "playwright",
+    "playwrighte2etests",
+    "playwright",
+    "MCP"
+  ],
+  "license": "ISC",
+  "author": "skrishnan",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {},
+  "dependencies": {
+    "fsevents": "^2.3.2",
+    "playwright": "^1.60.0",
+    "playwright-core": "^1.60.0",
+    "undici-types": "^7.24.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
+}
