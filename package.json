@@ -15,7 +15,9 @@
   "directories": {
     "test": "tests"
   },
-  "scripts": {},
+  "scripts": {
+    "demo": "npx playwright test tests/demo/mytest.spec.ts"
+  },
   "dependencies": {
     "fsevents": "^2.3.2",
     "playwright": "^1.60.0",
