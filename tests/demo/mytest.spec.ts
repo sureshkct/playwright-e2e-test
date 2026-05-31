@@ -7,6 +7,9 @@ expect: This is an "assertion" tool. It is used to validate conditions—checkin
 */
 test('The Home Page Validation', async ({ page }) => {
 
+   // test('Some Sample Test', { tag: '@smoke' }, async ({ page }, testinfo) => {
+  //  });
+
     /*
     test('The Home Page Validation', ...): We use the test tool we imported. 
     The text in quotes is just a friendly label. When you run your automation in the terminal, 

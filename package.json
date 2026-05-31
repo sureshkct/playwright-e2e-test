@@ -16,6 +16,7 @@
     "test": "tests"
   },
   "scripts": {
+    "bookapt": "npx playwright test tests/functional/bookapt.spec.ts --headed",
     "demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
     "login": "npx playwright test tests/functional/login.spec.ts --headed"
   },
