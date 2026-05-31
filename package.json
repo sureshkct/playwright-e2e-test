@@ -16,7 +16,8 @@
     "test": "tests"
   },
   "scripts": {
-    "demo": "npx playwright test tests/demo/mytest.spec.ts"
+    "demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
+    "functional": "npx playwright test tests/functional/login.spec.ts --headed"
   },
   "dependencies": {
     "fsevents": "^2.3.2",
