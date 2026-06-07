@@ -18,7 +18,8 @@
   "scripts": {
     "bookapt": "npx playwright test tests/functional/bookapt.spec.ts --headed",
     "demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
-    "login": "npx playwright test tests/functional/login.spec.ts --headed"
+    "login": "npx playwright test tests/functional/login.spec.ts --headed",
+    "multiwindow": "npx playwright test tests/functional/multi.window.spec.ts --headed"
   },
   "dependencies": {
     "fsevents": "^2.3.2",
