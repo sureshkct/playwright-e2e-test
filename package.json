@@ -20,7 +20,9 @@
     "demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
     "login": "npx playwright test tests/functional/login.spec.ts --headed",
     "multiwindow": "npx playwright test tests/functional/multi.window.spec.ts --headed",
-    "jsalerts": "npx playwright test tests/functional/js.alerts.spec.ts --headed"
+    "jsalerts": "npx playwright test tests/functional/js.alerts.spec.ts --headed",
+    "checkboxes": "npx playwright test tests/functional/checkboxes.spec.ts --headed",
+    "shadowdom": "npx playwright test tests/functional/shadow.dom.spec.ts --headed"
   },
   "dependencies": {
     "fsevents": "^2.3.2",
