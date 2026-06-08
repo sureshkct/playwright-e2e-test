@@ -16,6 +16,7 @@
     "test": "tests"
   },
   "scripts": {
+    "test:api": "npx playwright test tests/api/users.api.spec.ts",
     "bookapt": "npx playwright test tests/functional/bookapt.spec.ts --headed",
     "demo": "npx playwright test tests/demo/mytest.spec.ts --headed",
     "login": "npx playwright test tests/functional/login.spec.ts --headed",
@@ -32,7 +33,7 @@
   },
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.1",
+    "@types/node": "^25.9.2",
     "allure-playwright": "^3.9.0"
   }
 }
